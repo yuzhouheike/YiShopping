@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04242DB61CBF915000A108C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04242DB51CBF915000A108C6 /* main.m */; };
+		04242DB91CBF915000A108C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04242DB81CBF915000A108C6 /* AppDelegate.m */; };
+		04242DBC1CBF915000A108C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04242DBB1CBF915000A108C6 /* ViewController.m */; };
+		04242DBF1CBF915000A108C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04242DBD1CBF915000A108C6 /* Main.storyboard */; };
+		04242DC11CBF915000A108C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04242DC01CBF915000A108C6 /* Assets.xcassets */; };
+		04242DC41CBF915000A108C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04242DC21CBF915000A108C6 /* LaunchScreen.storyboard */; };
+		04242DCF1CBF915100A108C6 /* YiShoppingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04242DCE1CBF915100A108C6 /* YiShoppingTests.m */; };
+		04242DDA1CBF915100A108C6 /* YiShoppingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04242DD91CBF915100A108C6 /* YiShoppingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04242DCB1CBF915100A108C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04242DA91CBF915000A108C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04242DB01CBF915000A108C6;
+			remoteInfo = YiShopping;
+		};
+		04242DD61CBF915100A108C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04242DA91CBF915000A108C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04242DB01CBF915000A108C6;
+			remoteInfo = YiShopping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04242DB11CBF915000A108C6 /* YiShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YiShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04242DB51CBF915000A108C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04242DB71CBF915000A108C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04242DB81CBF915000A108C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04242DBA1CBF915000A108C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04242DBB1CBF915000A108C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04242DBE1CBF915000A108C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04242DC01CBF915000A108C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04242DC31CBF915000A108C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04242DC51CBF915000A108C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04242DCA1CBF915100A108C6 /* YiShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YiShoppingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04242DCE1CBF915100A108C6 /* YiShoppingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YiShoppingTests.m; sourceTree = "<group>"; };
+		04242DD01CBF915100A108C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04242DD51CBF915100A108C6 /* YiShoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YiShoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04242DD91CBF915100A108C6 /* YiShoppingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YiShoppingUITests.m; sourceTree = "<group>"; };
+		04242DDB1CBF915100A108C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04242DAE1CBF915000A108C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04242DC71CBF915100A108C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04242DD21CBF915100A108C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04242DA81CBF915000A108C6 = {
+			isa = PBXGroup;
+			children = (
+				04242DB31CBF915000A108C6 /* YiShopping */,
+				04242DCD1CBF915100A108C6 /* YiShoppingTests */,
+				04242DD81CBF915100A108C6 /* YiShoppingUITests */,
+				04242DB21CBF915000A108C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04242DB21CBF915000A108C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04242DB11CBF915000A108C6 /* YiShopping.app */,
+				04242DCA1CBF915100A108C6 /* YiShoppingTests.xctest */,
+				04242DD51CBF915100A108C6 /* YiShoppingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04242DB31CBF915000A108C6 /* YiShopping */ = {
+			isa = PBXGroup;
+			children = (
+				04242DB71CBF915000A108C6 /* AppDelegate.h */,
+				04242DB81CBF915000A108C6 /* AppDelegate.m */,
+				04242DBA1CBF915000A108C6 /* ViewController.h */,
+				04242DBB1CBF915000A108C6 /* ViewController.m */,
+				04242DBD1CBF915000A108C6 /* Main.storyboard */,
+				04242DC01CBF915000A108C6 /* Assets.xcassets */,
+				04242DC21CBF915000A108C6 /* LaunchScreen.storyboard */,
+				04242DC51CBF915000A108C6 /* Info.plist */,
+				04242DB41CBF915000A108C6 /* Supporting Files */,
+			);
+			path = YiShopping;
+			sourceTree = "<group>";
+		};
+		04242DB41CBF915000A108C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04242DB51CBF915000A108C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04242DCD1CBF915100A108C6 /* YiShoppingTests */ = {
+			isa = PBXGroup;
+			children = (
+				04242DCE1CBF915100A108C6 /* YiShoppingTests.m */,
+				04242DD01CBF915100A108C6 /* Info.plist */,
+			);
+			path = YiShoppingTests;
+			sourceTree = "<group>";
+		};
+		04242DD81CBF915100A108C6 /* YiShoppingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04242DD91CBF915100A108C6 /* YiShoppingUITests.m */,
+				04242DDB1CBF915100A108C6 /* Info.plist */,
+			);
+			path = YiShoppingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04242DB01CBF915000A108C6 /* YiShopping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04242DDE1CBF915100A108C6 /* Build configuration list for PBXNativeTarget "YiShopping" */;
+			buildPhases = (
+				04242DAD1CBF915000A108C6 /* Sources */,
+				04242DAE1CBF915000A108C6 /* Frameworks */,
+				04242DAF1CBF915000A108C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YiShopping;
+			productName = YiShopping;
+			productReference = 04242DB11CBF915000A108C6 /* YiShopping.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04242DC91CBF915100A108C6 /* YiShoppingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04242DE11CBF915100A108C6 /* Build configuration list for PBXNativeTarget "YiShoppingTests" */;
+			buildPhases = (
+				04242DC61CBF915100A108C6 /* Sources */,
+				04242DC71CBF915100A108C6 /* Frameworks */,
+				04242DC81CBF915100A108C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04242DCC1CBF915100A108C6 /* PBXTargetDependency */,
+			);
+			name = YiShoppingTests;
+			productName = YiShoppingTests;
+			productReference = 04242DCA1CBF915100A108C6 /* YiShoppingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04242DD41CBF915100A108C6 /* YiShoppingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04242DE41CBF915100A108C6 /* Build configuration list for PBXNativeTarget "YiShoppingUITests" */;
+			buildPhases = (
+				04242DD11CBF915100A108C6 /* Sources */,
+				04242DD21CBF915100A108C6 /* Frameworks */,
+				04242DD31CBF915100A108C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04242DD71CBF915100A108C6 /* PBXTargetDependency */,
+			);
+			name = YiShoppingUITests;
+			productName = YiShoppingUITests;
+			productReference = 04242DD51CBF915100A108C6 /* YiShoppingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04242DA91CBF915000A108C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王磊磊";
+				TargetAttributes = {
+					04242DB01CBF915000A108C6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 22HQ9Y68JF;
+					};
+					04242DC91CBF915100A108C6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 22HQ9Y68JF;
+						TestTargetID = 04242DB01CBF915000A108C6;
+					};
+					04242DD41CBF915100A108C6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 22HQ9Y68JF;
+						TestTargetID = 04242DB01CBF915000A108C6;
+					};
+				};
+			};
+			buildConfigurationList = 04242DAC1CBF915000A108C6 /* Build configuration list for PBXProject "YiShopping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04242DA81CBF915000A108C6;
+			productRefGroup = 04242DB21CBF915000A108C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04242DB01CBF915000A108C6 /* YiShopping */,
+				04242DC91CBF915100A108C6 /* YiShoppingTests */,
+				04242DD41CBF915100A108C6 /* YiShoppingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04242DAF1CBF915000A108C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04242DC41CBF915000A108C6 /* LaunchScreen.storyboard in Resources */,
+				04242DC11CBF915000A108C6 /* Assets.xcassets in Resources */,
+				04242DBF1CBF915000A108C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04242DC81CBF915100A108C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04242DD31CBF915100A108C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04242DAD1CBF915000A108C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04242DBC1CBF915000A108C6 /* ViewController.m in Sources */,
+				04242DB91CBF915000A108C6 /* AppDelegate.m in Sources */,
+				04242DB61CBF915000A108C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04242DC61CBF915100A108C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04242DCF1CBF915100A108C6 /* YiShoppingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04242DD11CBF915100A108C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04242DDA1CBF915100A108C6 /* YiShoppingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04242DCC1CBF915100A108C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04242DB01CBF915000A108C6 /* YiShopping */;
+			targetProxy = 04242DCB1CBF915100A108C6 /* PBXContainerItemProxy */;
+		};
+		04242DD71CBF915100A108C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04242DB01CBF915000A108C6 /* YiShopping */;
+			targetProxy = 04242DD61CBF915100A108C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04242DBD1CBF915000A108C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04242DBE1CBF915000A108C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04242DC21CBF915000A108C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04242DC31CBF915000A108C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04242DDC1CBF915100A108C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04242DDD1CBF915100A108C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04242DDF1CBF915100A108C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YiShopping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.yutian.com.YiShopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04242DE01CBF915100A108C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YiShopping/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.yutian.com.YiShopping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04242DE21CBF915100A108C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YiShoppingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.yutian.com.YiShoppingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YiShopping.app/YiShopping";
+			};
+			name = Debug;
+		};
+		04242DE31CBF915100A108C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YiShoppingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.yutian.com.YiShoppingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YiShopping.app/YiShopping";
+			};
+			name = Release;
+		};
+		04242DE51CBF915100A108C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YiShoppingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.yutian.com.YiShoppingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YiShopping;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		04242DE61CBF915100A108C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YiShoppingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.yutian.com.YiShoppingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YiShopping;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04242DAC1CBF915000A108C6 /* Build configuration list for PBXProject "YiShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04242DDC1CBF915100A108C6 /* Debug */,
+				04242DDD1CBF915100A108C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04242DDE1CBF915100A108C6 /* Build configuration list for PBXNativeTarget "YiShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04242DDF1CBF915100A108C6 /* Debug */,
+				04242DE01CBF915100A108C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04242DE11CBF915100A108C6 /* Build configuration list for PBXNativeTarget "YiShoppingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04242DE21CBF915100A108C6 /* Debug */,
+				04242DE31CBF915100A108C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04242DE41CBF915100A108C6 /* Build configuration list for PBXNativeTarget "YiShoppingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04242DE51CBF915100A108C6 /* Debug */,
+				04242DE61CBF915100A108C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04242DA91CBF915000A108C6 /* Project object */;
+}
